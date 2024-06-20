@@ -1,8 +1,8 @@
 import Heading from "./components/Heading";
 import TextBox from "./components/textbox";
-import Buttns from "./components/buttons"
+import Buttns from "./components/buttons";
 const Div = () => {
-  const arr = ["C", "1", "2", "+","C", "1", "2", "+","C", "1", "2", "+","C", "1", "2", "+","C", "1", "2", "+"];
+  const arr = ["C", "1", "2", "3", "+", "4", "5", "6", "-", "7", "8", "9", "/", "0", "*", "%"];
   return (<>
     <Heading pagename={"Calculator"} />
     <div className="flex flex-col justify-start items-center mx-auto border-2 border-gray-500 bg-gray-100 h-[420px] lg:h-[400px] w-[420px] lg:w-[400px] px-4 rounded">
